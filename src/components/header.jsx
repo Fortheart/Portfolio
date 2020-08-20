@@ -7,7 +7,6 @@ class header extends React.Component {
 
     render() {
         {
-
             return (
                 <div className={styles.header}>
                     {this.props.english === true ?
