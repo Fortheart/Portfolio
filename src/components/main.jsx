@@ -78,8 +78,9 @@ class Main extends React.Component {
                         {
                             this.state.opened === true ?
                                 this.state.projects.projects.map(project => {
-                                    if (this.state.projectId === project.id)
-                                        return (
+
+                                    return (
+                                        this.state.projectId === project.id ?
                                             <div className={styles.popupContainer}>
                                                 <img src={cancelIcon} className={styles.cancelButton} alt="X" onClick={this.trigger}></img>
                                                 <div className={styles.popupData}>
@@ -120,8 +121,9 @@ class Main extends React.Component {
 
                                                 </div>
 
-                                            </div>
-                                        )
+                                            </div> : null
+                                    )
+
                                 })
                                 : null
                         }
@@ -163,8 +165,8 @@ class Main extends React.Component {
                         {
                             this.state.opened === true ?
                                 this.state.czProjects.projects.map(project => {
-                                    if (this.state.projectId === project.id)
-                                        return (
+                                    return (
+                                        this.state.projectId === project.id ?
                                             <div className={styles.popupContainer}>
                                                 <img src={cancelIcon} className={styles.cancelButton} alt="X" onClick={this.trigger}></img>
                                                 <div className={styles.popupData}>
@@ -205,8 +207,8 @@ class Main extends React.Component {
 
                                                 </div>
 
-                                            </div>
-                                        )
+                                            </div> : null
+                                    )
                                 })
                                 : null
                         }
