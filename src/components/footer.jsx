@@ -59,7 +59,7 @@ const footer = (props) => {
                             <h2>Grafika</h2>
                             <p>Adobe Photoshop, Adobe Illustrator, Adobe XD, Figma</p>
 
-                            <h2>Contact</h2>
+                            <h2>Kontakt</h2>
                             <p>E-mail: martin.zvozil@gmail.com</p>
                             <p>Tel: +420 725 054 299</p>
                             <br />
@@ -67,7 +67,7 @@ const footer = (props) => {
                         </div>
 
                         <div className={styles.experienceContainer}>
-                            <h2>Work Experience</h2>
+                            <h2>Předchozí zaměstnání</h2>
                             <div className={styles.experience}>
                                 <img src={expBar} alt="experience bar"></img>
                                 <div className={styles.expData}>

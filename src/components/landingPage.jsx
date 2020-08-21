@@ -67,7 +67,7 @@ const main = (props) => {
                         </div>
                         <div className={styles.particlesTextContainerP}>
                             <p>
-                                Jmenuji se Martin, Front End developer žíjící v Praze.
+                                Jmenuji se Martin a jsem Front End developer žíjící v Praze.
                     </p>
 
                         </div>
