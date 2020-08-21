@@ -63,7 +63,7 @@ const footer = (props) => {
                             <p>E-mail: martin.zvozil@gmail.com</p>
                             <p>Tel: +420 725 054 299</p>
                             <br />
-                            <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+                            <a href={resume} target="_blank" rel="noopener noreferrer">Životopis</a>
                         </div>
 
                         <div className={styles.experienceContainer}>
